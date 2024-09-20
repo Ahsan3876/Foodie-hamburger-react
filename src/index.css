@@ -1,6 +1,16 @@
 html{
     scroll-behavior: smooth;
 }
-header{
-    position: sticky;
+body{
+    background-color: rgba(246, 240, 235, 1);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
+header{
+    background-color: rgba(255, 255, 255, 1);
+    padding: 24px 32px;
+    position: sticky;
+    top: 0;
+    background-color:rgba(252, 251, 250, 0.644);
+        backdrop-filter: blur(8px);     
+  }

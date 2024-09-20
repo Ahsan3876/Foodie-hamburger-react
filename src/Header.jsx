@@ -7,18 +7,18 @@ export default function Header() {
   };
   return (
     <header>
-      <div class={`header-content ${openMenu ? "menu-open" : ""} `}>
-        <div class="logo">
+      <div className={`header-content ${openMenu ? "menu-open" : ""} `}>
+        <div className="logo">
           <img src="Images/foodie hamburger logo.png" alt="logo" />
         </div>
-        <div class="hamburger-menu-container" onClick={toggle}>
-          <div class="hamburger-menu">
-            <span class="hamburger-icon">&#9776;</span>
+        <div className="hamburger-menu-container" onClick={toggle}>
+          <div className="hamburger-menu">
+            <span className="hamburger-icon">&#9776;</span>
           </div>
         </div>
 
-        <nav>
-          <span class="close-icon" onClick={toggle}>
+        <nav className={`${openMenu ? "menu-open" : ""} `}>
+          <span className="close-icon" onClick={toggle}>
             &times;
           </span>
           <a href="#top-picks" onClick={toggle}>
